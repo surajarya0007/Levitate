@@ -16,6 +16,7 @@ class PlannerAgent(BaseAgent[SitePlan]):
            - Title
            - Description
            - Key Features (list of sections/functionalities)
+        5. Ensure that the website plan is designed with a smooth implementation in mind, avoiding features that would cause build or compile errors.
 
         OUTPUT FORMAT:
         You must return ONLY a valid JSON object strictly matching the SitePlan schema.

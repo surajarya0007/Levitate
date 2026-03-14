@@ -36,6 +36,8 @@ class UiAgent(BaseAgent[ProjectFiles]):
         - Ensure responsive design (mobile-first).
         - Use semantically correct HTML5 tags.
         
+        Ensure the generated code is immediately buildable—validate all imports, correct TypeScript types, and avoid any common build-time errors.
+        
         # OUTPUT SCHEMA
         Return ONLY valid JSON in the following format:
         {
