@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ffffff;
+  --color-primary-foreground: #000000;
+  --color-background-light: #ffffff;
+  --color-background-dark: #09090b;
+  --color-surface-dark: #18181b;
+  --color-border-dark: #27272a;
+
+  --font-display: var(--font-inter), sans-serif;
+  --font-sans: var(--font-inter), sans-serif;
+
+  --animate-ping-slow: ping 3s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@layer base {
+  body {
+    @apply bg-background-light dark:bg-background-dark text-zinc-900 dark:text-zinc-50 font-display antialiased selection:bg-zinc-800 selection:text-white overflow-x-hidden;
+  }
+}
+
